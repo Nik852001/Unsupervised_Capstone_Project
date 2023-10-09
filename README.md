@@ -44,6 +44,7 @@ Clustering Netflix movies and TV shows is crucial for enhancing user experience 
 Exploratory data analysis:
 
 1. Column:'type'
+   
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/9f12da7e-4298-43e9-ac21-02582f52adcc)
 **Observations:**
 
@@ -51,6 +52,7 @@ Exploratory data analysis:
 * 31% of the data are from TV shows, while 69% of the data are from movies.
 
 2. Column:'title'
+   
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/8508ac11-d872-4ef2-8b32-9cdc4e893853)
 **Observations:**
 
@@ -58,6 +60,7 @@ Exploratory data analysis:
 * Both, Jan Suter and Raul Campos have directed 18 films, more than anyone else in the dataset.
 
 3. Column:'cast'
+   
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/fe1e9e67-49d2-4052-9df0-8bb1edc794c4)
 **Observations:**
 
@@ -65,6 +68,7 @@ Exploratory data analysis:
 * In the shows, Takahiro Sakurai, Yuki Kaji, and Daisuke Ono played the most number of roles.
 
 4. Column:'director'
+   
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/32dd311b-9a01-4657-82a8-6b365d1d7199)
 **Observations:**
 
@@ -72,6 +76,7 @@ Exploratory data analysis:
 * Both, Jan Suter and Raul Campos have directed 18 films, more than anyone else in the dataset.
 
 5. Column:'country'
+   
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/8e8513e2-9995-4d44-80bc-5bec3ef77065)
 **Observation:**
 * The United States-based movies and TV shows were produced most, followed by India and the United Kingdom.
@@ -79,6 +84,7 @@ Exploratory data analysis:
 * In the UK, Japan, and South Korea there are a greater number of TV shows than movies.
 
 6. Column:'release_year'
+   
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/9a56dbef-9c50-4025-befe-ff3720ca1070)
 **Observations:**
 
@@ -86,6 +92,7 @@ Exploratory data analysis:
 * Most Movies and TV shows were available on Netflix between 2015 and 2020, and the highest were in 2018.
 
 7. Column:'rating'
+   
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/5ec8d918-a978-412d-b7d0-7a2b46721fde)
 **Observations:**
 
@@ -93,6 +100,7 @@ Exploratory data analysis:
 * When compared to TV shows, Movies receive the highest rating, which is pretty obvious given that the number of Movies is higher compared to TV shows, as we saw earlier in the type column.
 
 8. Column:'listed_in'
+   
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/64a1d1ff-5edf-4e8d-8a08-f733d11c78d6)
 **Observations:**
 
@@ -102,12 +110,17 @@ Exploratory data analysis:
 
 Model Implementation:
 1. K-Means Clustering:
+   
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/535d0484-d251-4bbd-887d-28fc392665d0)
+
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/d3b63b8e-6b9c-4b31-9d50-ad5a1a147c31)
+
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/195e5dc6-f54c-4ade-b921-2fa1c091019b)
 
-2. Hierarchical Clustering:
+3. Hierarchical Clustering:
+   
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/df26c554-5f89-4966-aeb1-7df7ca349f46)
+
 ![image](https://github.com/Nik852001/Unsupervised_Capstone_Project/assets/93510310/c7d0e20d-496f-4968-97b7-4a094e3934cc)
 
 
